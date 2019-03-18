@@ -1,109 +1,86 @@
-== Pixgraphy ==
-Description: Pixgraphy is a Responsive Photography WordPress Theme, Designed and Developed by Theme Freesia. This theme supports popular plugins like Breadcrumb NavXT, WP-PageNavi, Contact Form 7, Jetpack by WordPress.com, Polylang, bbPress, wooCommerce and many more. It is also translation ready and easily customizable with lots of options using Customizer. It consists contact us template, gallery template, widgets and sidebar. Get free support at http://themefreesia.com/support-forum/ and View demo site at http://demo.themefreesia.com/pixgraphy.
+################################################################################################
 
-Contributors: ThemeFreesia Team
+Documentation for Black and White by Bootstrapious - https://bootstrapious.com
 
-License: GNU General Public License version 3.0
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+################################################################################################
 
-Tags: threaded-comments, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, sticky-post, theme-options, translation-ready, post-formats, custom-logo, blog, e-commerce, holiday, news, photography, portfolio
+Hi,
 
-All files, unless otherwise stated, are released under the GNU General Public License
-version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
-Text Domain: pixgraphy
+thank you for downloading. Have fun and tell your friends about us ;)
 
-=================================================================================
-
-==License ==
-License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-
-	-Font Awesome
-		http://fontawesome.io/license/
-		Font Licensed: License: SIL OFL 1.1
-		Code License: MIT License
-
-	-JS Files
-		jquery.sticky.js: http://stickyjs.com/
-		Licensed: https://github.com/garand/sticky/blob/master/LICENSE.md
-
-		HTML5.js:  HTML5-Shiv is Licensed under the MIT and GPL licenses
-		https://github.com/afarkas/html5shiv
-
-		jQuery.cycle.all:  JQuery Cylcle all is Licensed under the MIT and GPL licenses
-		http://jquery.malsup.com/cycle2/
-
-		jquery.min.js: https://jquery.org/license/
-		Licensed: jquery.min.js is Licensed under the MIT License
-
-		wow.js: https://github.com/matthieua/WOW/blob/master/README.md#open-source-license
-		Licensed: wow.js is Licensed under the MIT License
-
-		customize-preview: https://wordpress.org/themes/twentyfifteen
-		Copyright: Automattic, automattic.com
-		Licensed: GNU General Public License v3 or later
-
-	-Images
-		Screenshot Images: 
-		https://pixabay.com/en/forest-mist-nature-trees-mystic-931706/
-		https://pixabay.com/en/photographer-camera-photography-925587/
-		https://pixabay.com/en/blonde-woman-girl-young-female-801985/
-		https://pixabay.com/en/ship-shipwreck-adventure-setting-1060919/
-		https://pixabay.com/en/handmade-sneakers-colorful-painted-791693/
-		https://pixabay.com/en/pier-ocean-clouds-landscape-summer-821570/
-		https://pixabay.com/en/old-retro-antique-vintage-classic-1130731/
-		https://pixabay.com/en/bald-eagles-bald-eagle-bird-of-prey-341898/
-		Licensed: Public Domain Images
-
-	- Google Fonts - Apache License, version 2.0
+Ondrej, Bootstrapious
 
 
+CSS
+----------
 
-All the theme files and other un-specified scripts are licensed under GNU General Public License Version 3 or later and can be used or modify for both commercial and personal use.
+The theme stylesheet is css/style.default.css. If you want to make any changes, 
+you can do it here or better to override it in custom.css so you can update the original theme stylesheet if an updated is released. 
 
-=================================================================================
+JavaScript
+----------
 
-== Pixgraphy Info ==
+Apart from the Bootstrap JS components, the majority of JS is located in /js/front.js. 
 
-	- About Theme -
-	http://themefreesia.com/themes/pixgraphy
+Google Map
+----------
 
-	- Theme Demo -
-	http://demo.themefreesia.com/pixgraphy
+To make the Google map work on your site, you have to generate the Google Maps API key and replace it in the code. For more info have a look at my tutorial at https://bootstrapious.com/p/google-maps-and-bootstrap-tutorial.
 
-	- Theme Instruction -
-	http://themefreesia.com/theme-instruction/pixgraphy
+Contact Form
+----------
 
-	- Free Support -
-	http://themefreesia.com/forums
+To make the Contact form work on your site, you have to provide a back-end solution in a language of your choice. For a PHP solution, check out  my tutorial at https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form.
 
-=================================================================================
-== Menus ==
-There is one Menu registered in this theme. i.e. Main Menu
 
-== Installation ==
-1. Primary: Login to your wp-admin area and go to Dashboard -> Appearance -> Themes. Select Install tab and click on Upload link. Select theme .zip and click on Install now button. If you have any errors, use can also use an alternate method.
+Credits
+---------
 
-2. Alternate: Unzip the template file (pixgraphy.zip) that you have downloaded. Via FTP, upload the whole folder (pixgraphy) to your server and place it inside the http://yourdomain.com/wp-content/themes/folder(pixgraphy). Do not change directory name. The template files should thus be here now: http://yourdomain.com/wp-content/themes/pixgraphy/index.php (for example).
+- Botstrap 4 - http://getbootstrap.com
+- Font Awesome 4.7 - http://fontawesome.io/
+- Google Fonts - Montserrat & Cardo
+- more in credits.txt.
 
-3. Log into your WP admin panel and click on the Appearance -> Theme tab. Now click on the Pixgraphy theme to activate it.
+## Changelog ##
 
-4. Want to enjoy Pixgraphy feature. Go to  Dashboard -> Appearance -> Customize and play with Pixgraphy Options
+-----------------------------------------------------------------------------------------
+Version 2.0.1 - 2018/02/14
+-----------------------------------------------------------------------------------------
 
-5. The theme is offered free of charge. If someone asked money for it, someone just tricked you.
+- updated: Bootstrap to 4.3.1
+- updated plugins: PopperJs, Bootstrap Select
+- replaced Google Maps by Open Street Maps + Leaflet.js
 
-== Translation ==
+-----------------------------------------------------------------------------------------
+Version 2.0.0 - 2018/05/01
+-----------------------------------------------------------------------------------------
 
-Pixgraphy theme is translation ready
+- remake and upgrade to Bootstrap to 4.1.1
 
-=================================================================================
+-----------------------------------------------------------------------------------------
+Version 1.0.0 - 2015/12/05
+-----------------------------------------------------------------------------------------
 
-== Change Log ==
+- Initial release
 
-Please refer to changelog.txt file
 
-=================================================================================
+---------------------
+ LICENSE CONDITIONS
+---------------------
 
-= Theme Instructions =
+You are completely free to use this template for your personal use or as a work for your client as 
+long as you keep the link at the template footer pointing to us and our partner. 
 
-For detail instructions visit http://themefreesia.com/theme-instruction/pixgraphy/
+If you would prefer removing the backlink from the theme footer, please donate (https://bootstrapious.com/donate) 
+to support themes' development. Suggested amount per template is $10. 
+Also, as a bonus for donors, I can provide you the SASS files for even easier template customization. Drop me a line at hello@bootstrapious.com after donating.
+
+However you cannot redistribute the template nor its derivatives on the internet - neither for free or commercially (e.g. selling it on template marketplace).
+
+Thank you for understanding and respecting the license conditions.
+
+---------------------
+ GET IN TOUCH ;)
+---------------------
+
+https://twitter.com/bootstrapious | https://google.com/+Bootstrapious1 | https://www.facebook.com/bootstrapious | hello@bootstrapious.com
